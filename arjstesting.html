@@ -5,11 +5,11 @@
     <body style='margin : 0px; overflow: hidden;'>
         <a-scene embedded arjs>
             <a-assets>
-                <a-asset-item id="dg-obj" src="res/m.obj"></a-asset-item>
-                <a-asset-item id="dg-mtl" src="res/m.mtl"></a-asset-item>
+                <a-asset-item id="dg-obj" src="/res/m.obj"></a-asset-item>
+                <a-asset-item id="dg-mtl" src="/res/m.mtl"></a-asset-item>
             </a-assets>
             <a-entity obj-model='obj: #dg-obj; mtl: #dg-mtl' position='0 1 0' rotation='0 90 0' shadow='receive: true'></a-entity>
-  	        <a-marker-camera type='pattern' patternUrl='res/doggie.patt'></a-marker-camera>
+  	        <a-marker-camera type='pattern' patternUrl='/res/new.patt'></a-marker-camera>
         </a-scene>
     </body>
 </html>
